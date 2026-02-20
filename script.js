@@ -23,23 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // - src: The path to the audio file in the 'music' folder.
     // - artwork: The path to the album art in the 'images' folder.
     const songs = [
-        { title: 'Burj Khalifa', artist: 'DownloadMing.ME', src: 'music/01 - Burj Khalifa (320 Kbps) - DownloadMing.ME.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Dus Bahane 2.0', artist: 'DownloadMing.SE', src: 'music/01 - Dus Bahane 2.0(feat. K.K., Shaan, Tulsi Kumar) - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Muqabla', artist: 'DownloadMing.SE', src: 'music/01 - Muqabla - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Shayad', artist: 'DownloadMing.SE', src: 'music/01 - Shayad - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Cham Cham', artist: 'DownloadMing.io', src: 'music/02 - Cham Cham - DownloadMing.io.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Garmi', artist: 'DownloadMing.SE', src: 'music/02 - Garmi - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Haan Main Galat', artist: 'DownloadMing.SE', src: 'music/02 - Haan Main Galat - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Lamborghini', artist: 'DownloadMing.SE', src: 'music/02 - Lamborghini - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Mere Liye Tum Kaafi Ho', artist: 'DownloadMing.SE', src: 'music/02 - Mere Liye Tum Kaafi Ho - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Illegal Weapon 2.0', artist: 'DownloadMing.SE', src: 'music/03 - Illegal Weapon 2.0  - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Whistle Baja 2.0', artist: 'Unknown Artist', src: 'music/04 - Whistle Baja 2.0 (320 Kbps).mp3', artwork: 'images/default_art.svg' },
-        { title: 'Lagdi Lahore Di', artist: 'DownloadMing.SE', src: 'music/05 - Lagdi Lahore Di - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Tu Hi Haqeeqat', artist: 'Tum Mile', src: 'music/128-Tu Hi Haqeeqat - Tum Mile 128 Kbps.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Buddhu Sa Mann', artist: 'K&S 2016', src: 'music/320kbps_K&S 2016 - Buddhu Sa Mann.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Aakho Me Dub Jane Ko', artist: 'Unknown Artist', src: 'music/Aakho Me Dub Jane Ko.mp3', artwork: 'images/default_art.svg' },
-        { title: 'Aashiqui', artist: 'Azaan Sami Khan(audiosong.in)', src: 'music/Aashiqui - Azaan Sami Khan(audiosong.in).mp3', artwork: 'images/default_art.svg' },
-        { title: 'Airlift - Soch Na Sake Version-2', artist: 'Unknown Artist', src: 'music/Airlift - Soch Na Sake Version-2.mp3', artwork: 'images/default_art.svg' }
+        { title: 'Burj Khalifa', artist: 'Shashi, Dj Khushi, Nikhita Gandhi, Madhubanti', src: 'music/01 - Burj Khalifa (320 Kbps) - DownloadMing.ME.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Dus Bahane 2.0', artist: 'Vishal, Shekhar', src: 'music/01 - Dus Bahane 2.0(feat. K.K., Shaan, Tulsi Kumar) - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Muqabla', artist: 'Parampara Thakur, Yash Narvekar', src: 'music/01 - Muqabla - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Shayad', artist: 'Pritam • Arijit Singh', src: 'music/01 - Shayad - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Cham Cham', artist: 'Meet Bros & Monali Thakur', src: 'music/02 - Cham Cham - DownloadMing.io.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Garmi', artist: 'Badshah, Neha Kakkar', src: 'music/02 - Garmi - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Haan Main Galat', artist: 'Pritam • Arijit Singh • Shashwat Singh', src: 'music/02 - Haan Main Galat - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Lamborghini', artist: 'Meet Bros., Neha Kakkar, Jassie Gill', src: 'music/02 - Lamborghini - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
+        { title: 'Mere Liye Tum Kaafi Ho', artist: 'Ayushmann Khurrana', src: 'music/02 - Mere Liye Tum Kaafi Ho - DownloadMing.SE.mp3', artwork: 'images/default_art.svg' },
     ];
     // --- End of playlist setup ---
 
